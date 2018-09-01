@@ -21,5 +21,6 @@ from .fuction import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home),
-    path('count/', count)
+    path('count/', count),
+    path('about/', about)
 ]

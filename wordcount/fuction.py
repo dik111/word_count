@@ -31,9 +31,10 @@ def count(request):
 
     return render(request , 'count.html',{'count':total_count , 'text':user_text1,'dict':dataframe})
 
-#def dataframe():
-    #count().da
+def about(request):
+    return render(request ,'about.html')
 
 if __name__ == '__main__':
     home()
     count()
+    about()
